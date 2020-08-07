@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewFriendRequest">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_toolbar"
+        android:gravity="center"
+
+        >
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back_btn"
+            android:background="@color/colorWhite"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            >
+
+        </ImageButton>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/logo"/>
+    </androidx.appcompat.widget.Toolbar>
+    <SearchView
+        android:id="@+id/search_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:gravity="center"
+        android:queryHint="@string/search"
+        android:iconifiedByDefault="false"
+        >
+
+    </SearchView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/friend_request"/>
+</LinearLayout>

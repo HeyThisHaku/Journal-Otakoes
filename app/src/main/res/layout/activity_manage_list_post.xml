@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="layoutrecycle.ManageListPostLayout">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="top"
+            android:id="@+id/image_post"
+            android:src="@drawable/content_1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlack"
+                android:id="@+id/title_post"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:text="UNTITLED"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="top"
+                android:textColor="@color/colorBlack"
+                android:id="@+id/author_post"
+                android:textSize="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="UNTITLED"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/simpleCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+</LinearLayout>

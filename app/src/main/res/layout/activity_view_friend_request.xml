@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewFriendRequest">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_toolbar"
+        android:gravity="center"
+
+        >
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back_btn"
+            android:background="@color/colorWhite"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            >
+
+        </ImageButton>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/logo"/>
+        <ImageButton
+            android:id="@+id/add_friend_btn"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/friend_req"
+            android:background="@color/colorWhite"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            >
+
+        </ImageButton>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_all_request"
+        android:layout_marginVertical="20dp"
+        android:paddingHorizontal="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pending_request"
+
+            />
+        <ImageView
+            android:id="@+id/req_up_arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:src="@drawable/arrow_down"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/req_down_arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:src="@drawable/arrow_up_black"
+
+            />
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pending_request"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_all_friend"
+        android:layout_marginVertical="20dp"
+        android:paddingHorizontal="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/show_all_friend"
+
+            />
+        <ImageView
+            android:id="@+id/friend_up_arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:src="@drawable/arrow_down"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/friend_down_arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:src="@drawable/arrow_up_black"
+
+            />
+
+    </LinearLayout>
+    <include layout="@layout/activity_all_friends" />
+</LinearLayout>

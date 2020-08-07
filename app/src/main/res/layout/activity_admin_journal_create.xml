@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    tools:context=".AdminJournalCreate">
+    tools:context=".CatalogJournal">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_Header"
+        android:gravity="center"
+        android:background="@color/colorWhite">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to generate linkZip"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/button_zip"
+        />
+    <TextView
+        android:id="@+id/zip_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        android:text="Wait..."/>
+
+</LinearLayout>

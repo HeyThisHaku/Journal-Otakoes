@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jurnal Otaku</string>
+    <string name="popular_content">Dilihat paling banyak bulan ini</string>
+    <string name="popular_anime">Anime Populer</string>
+    <string name="whats_new">Post Terbaru</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut orci dui. Maecenas eu nibh ut lacus molestie mollis a in elit. Praesent rhoncus commodo diam quis tempor. Phasellus pulvinar libero vel tortor eleifend, vitae tristique turpis blandit. Aliquam posuere odio non tortor luctus sagittis. Donec nec porttitor nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam et turpis in dolor malesuada faucibus vel a urna. Vestibulum ut viverra dolor. In at sapien eget tortor tincidunt venenatis vel nec lorem. In sed ullamcorper tortor.
+
+    Pellentesque eu libero in purus dignissim vulputate in in ipsum. Nam et sodales dolor, vel ultricies nulla. Ut molestie ullamcorper velit eget suscipit. Proin lobortis tincidunt lacus sit amet aliquet. In semper enim vel nisi condimentum commodo. Quisque elementum vel lorem ut condimentum. Cras lacinia bibendum erat in venenatis. Nullam et consectetur tellus, eu pretium neque.</string>
+    <string name="title_activity_home">Jurnal Otaku</string>
+    <string name="navigation_drawer_open">Buka navigation drawer</string>
+    <string name="navigation_drawer_close">Tutup navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Tentang kami</string>
+
+    <string name="menu_profile">Profil</string>
+    <string name="menu_gallery">Galleri</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_home">Beranda</string>
+    <string name="menu_logout">Keluar</string>
+    <string name="menu_friends">Teman</string>
+    <string name="menu_chat">Obrolan</string>
+    <string name="menu_catalog">Katalog</string>
+    <string name="menu_admin">Admin</string>
+    <string name="detail_comment">Komentar disini!</string>
+
+    <string name="home_second">Home Second</string>
+    <item name="edit_text" type="id" />
+    //download task
+    <string name="no_task">Tidak ada aplikasi cocok yang dapat membuka file zip</string>
+    <string name="no_sd_card">Tidak ada SD card</string>
+    //FriendReqAdapter
+    <string name="friend_req">Permintaan teman terkirim</string>
+    <string name="cancel_friend_req">Permintaan teman telah dibatalkan</string>
+    //JournalAdapter
+    <string name="copied_from_clipboard">Disalin dari clipboard!</string>
+    //PendingRequestAdapter
+    <string name="added_successfull">Berhasil menambahkan teman</string>
+    <string name="decline_friend_req">Berhasil menolak permintaan teman</string>
+    //RecyclerViewCommentAdapter
+    <string name="liked"> Disukai</string>
+    //RecyclerViewPostinganAdapter
+    <string name="posted_by">Diposting oleh: </string>
+
+    //AdminInsert
+    <string name="success">Berhasil</string>
+    <string name="failed">Gagal</string>
+    <string name="uploading">Upload</string>
+    //ManagePost
+    <string name="insert">Masukkan</string>
+    //ChangePassword
+    <string name="old_pass_failed">Kata sandi lama harus diisi</string>
+    <string name="new_pass_failed">Kata sandi baru harus diisi</string>
+    <string name="new_pass_6_char">Kata sandi baru harus minimal 6 karakter</string>
+    <string name="new_pass_alphanum">Kata sandi baru harus alphanumerik</string>
+    <string name="conf_pass_failed">Konfirmasi kata sandi berbeda dengan kata sandi baru</string>
+    <string name="success_update_pass">Kata sandi berhasi diganto</string>
+    <string name="failed_update_pass">Kata sandi lama salah</string>
+
+    //EditProfile
+    <string name="edit_username_failed">Kolom nama pengguna tidak boleh kosong.</string>
+    <string name="edit_email_failed">Kolom email tidak boleh kosong.</string>
+    <string name="edit_pass_failed">Kata sandi harus diisi</string>
+    <string name="profile_updated">Profil berhasil diubah</string>
+    <string name="edit_wrong_pass">Kata sandi salah</string>
+    //Login
+    <string name="login_email_empty">Email harus diisi"</string>
+    <string name="login_pass_empty">Kata sandi harus diisi</string>
+    <string name="login_pass_less_6">Kata sandi harus minimal 6 karakter</string>
+    <string name="login_failed">Salah email dan kata sandi</string>
+    //Register
+    <string name="register_usr_failed">Nama pengguna harus diisi</string>
+    <string name="login_error">"Akun bermasalah"</string>
+    <string name="register_email_failed">Email harus diisi</string>
+    <string name="register_email_format_failed">Format email salah</string>
+    <string name="register_pass_failed">Kata sandi harus diisi</string>
+    <string name="register_pass_alphanum">Kata sandi harus alphanumerik</string>
+    <string name="register_conf_pass_failed">Konfirmasi kata sandi harus sama dengan kata sandi</string>
+    <string name="success_register">Berhasil daftar akun</string>
+    //activity_admin_insert
+    <string name="title">Judul</string>
+    <string name="author">Pembuat</string>
+    <string name="img_url">Url_gambar</string>
+    <string name="upload_from_device">Upload dari hp</string>
+
+    //activity_journal_layout
+    <string name="download">Unduh</string>
+    //activity_search_post
+    <string name="result_for">Hasil untuk: </string>
+    //profile menus
+    <string name="edit_profile">Ubah Profil</string>
+    <string name="favourite_post">Postingan Favorit</string>
+    <string name="no_fav">Belum ada postingan favorit</string>
+    <string name="desc">Deskripsi</string>
+    <string name="submit">Kirim</string>
+    //catalog_journal
+    <string name="download_journal">Download jurnal disini!</string>
+    //fragment_manage_journal
+    <string name="create_journal">BuatJurnal</string>
+    //chats
+    <string name="no_chats">Belum ada pesan</string>
+    <string name="type_message">Ketik Pesan</string>
+    //start conv
+    <string name="start_new_conversation">Pilih kontak</string>
+    //home
+    <string name="search">Temukan disini</string>
+    <string name="tab_for_others">Lainnya</string>
+    //detailpost
+    <string name="share_post">Bagi Postingan</string>
+    <string name="add_favorite_post">Tambahkan ke favorit</string>
+    <string name="comment">Komentar</string>
+    <string name="post_comment">Kirim Komentar</string>
+    <string name="sort_comment">Urutkan Komentar</string>
+    //friend req
+    <string name="cancel_confirmation">Yakin untuk menolak permintaan teman ?</string>
+    <string name="sure">Yakin</string>
+    <string name="cancel">Batalkan</string>
+    <string name="add_friend">Tambah Teman</string>
+    <string name="cancel_add_friend">Batalkan Permintaan</string>
+    <string name="already_friend">Sudah Berteman</string>
+    //pending req
+    <string name="accept_request">Terima</string>
+    <string name="decline_request">Tolak</string>
+    <string name="pending_request">Permintaan Teman</string>
+    <string name="show_all_friend">Teman</string>
+    //all friend
+    <string name="chat_with_friend">Mengobrol dengan teman</string>
+    //login strings
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="email_hint"><font size="15">Masukkan email anda</font></string>
+    <string name="prompt_password">Kata sandi</string>
+    <string name="password_hint"><font size="15">Masukkan kata sandi anda</font></string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_to_register"><font color="grey" size="12">Belum punya akun ? Daftar Disini</font></string>
+    <string name="google_sign_up">Daftar dengan Google</string>
+    <string name="or">--atau--</string>
+    <string name="success_login">Berhasil log in</string>
+    <string name="success_login_google">Berhasil masuk dengan akun google</string>
+    //register strings
+    <string name="title_activity_register">Daftar</string>
+    <string name="register_prompt_username">Nama Pengguna</string>
+    <string name="register_username_hint"><font size="15">Masukkan nama pengguna anda</font></string>
+    <string name="register_prompt_email">Email</string>
+    <string name="register_email_hint"><font size="15">Masukkan email anda</font></string>
+    <string name="register_prompt_password">Kata sandi</string>
+    <string name="register_password_hint"><font size="15">Masukkan kata sandi anda</font></string>
+    <string name="prompt_confirm_password">Konfirmasi kata sandi</string>
+    <string name="confirm_password_hint"><font size="15">Konfirmasi kata sandi anda</font></string>
+    <string name="action_to_login"><font color="grey" size="12">Sudah punya akun ? Login Disini</font></string>
+    <string name="title_activity_other_post">Post lain</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tap_for_others">Tab Lainnya</string>
+
+    //manage profile
+
+    <string name="change_profile">Ubah Profil</string>
+    <string name="change_pass">Ubah Kata Sandi</string>
+    //edit profile
+    <string name="save">Simpan perubahan</string>
+    <string name="confirm_changes">Konfirmasi</string>
+    //change password
+    <string name="old_pass">Kata Sandi Lama</string>
+    <string name="new_pass">Kata Sandi Baru</string>
+    <string name="confirm_pass">Konfirmasi Kata Sandi</string>
+</resources>

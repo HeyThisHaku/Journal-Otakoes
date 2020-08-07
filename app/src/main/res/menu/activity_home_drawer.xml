@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:title="@string/menu_profile" />
+
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/friends"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:title="@string/menu_friends" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:title="@string/menu_chat" />
+        <item
+            android:id="@+id/nav_catalog"
+            android:icon="@drawable/catalog"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:title="@string/menu_catalog" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/profile"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:title="@string/menu_admin" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/sign_out"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:title="@string/menu_logout"
+            />
+    </group>
+</menu>

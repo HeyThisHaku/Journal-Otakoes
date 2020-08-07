@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Jurnal Otaku</string>
+    <string name="popular_content">Most View in this month</string>
+    <string name="popular_anime">Top Anime</string>
+    <string name="whats_new">What\'s New about post?</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut orci dui. Maecenas eu nibh ut lacus molestie mollis a in elit. Praesent rhoncus commodo diam quis tempor. Phasellus pulvinar libero vel tortor eleifend, vitae tristique turpis blandit. Aliquam posuere odio non tortor luctus sagittis. Donec nec porttitor nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam et turpis in dolor malesuada faucibus vel a urna. Vestibulum ut viverra dolor. In at sapien eget tortor tincidunt venenatis vel nec lorem. In sed ullamcorper tortor.
+
+    Pellentesque eu libero in purus dignissim vulputate in in ipsum. Nam et sodales dolor, vel ultricies nulla. Ut molestie ullamcorper velit eget suscipit. Proin lobortis tincidunt lacus sit amet aliquet. In semper enim vel nisi condimentum commodo. Quisque elementum vel lorem ut condimentum. Cras lacinia bibendum erat in venenatis. Nullam et consectetur tellus, eu pretium neque.</string>
+    <string name="title_activity_home">Jurnal Otaku</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">About us</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_friends">Friends</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_catalog">Catalog</string>
+    <string name="menu_admin">Admin</string>
+    <string name="detail_comment">Comment here!</string>
+
+    <string name="home_second">Home Second</string>
+    <item name="edit_text" type="id" />
+    //download task
+    <string name="no_task">No Application available to open the zip</string>
+    <string name="no_sd_card">Oops!! There is no SD Card.</string>
+    //FriendReqAdapter
+    <string name="friend_req">Friend request sent</string>
+    <string name="cancel_friend_req">Friend request has been cancelled</string>
+    //JournalAdapter
+    <string name="copied_from_clipboard">Copied from Clipboard!</string>
+    //PendingRequestAdapter
+    <string name="added_successfull">Successfully added </string>
+    <string name="decline_friend_req">Declined friend request</string>
+    //RecyclerViewCommentAdapter
+    <string name="liked"> Liked</string>
+    //RecyclerViewPostinganAdapter
+    <string name="posted_by">Posted by: </string>
+
+    //AdminInsert
+    <string name="success">Success</string>
+    <string name="failed">Failed</string>
+    <string name="uploading">Upload</string>
+    //ManagePost
+    <string name="insert">Insert</string>
+    //ChangePassword
+    <string name="old_pass_failed">Old password must be filled</string>
+    <string name="new_pass_failed">New password must be filled</string>
+    <string name="new_pass_6_char">New password must be at least 6 characters</string>
+    <string name="new_pass_alphanum">New password must be alphanumeric</string>
+    <string name="conf_pass_failed">Confirm password does not match new password</string>
+    <string name="success_update_pass">Password has been updated</string>
+    <string name="failed_update_pass">Wrong old password</string>
+    //EditProfile
+    <string name="edit_username_failed">Username field must not be empty.</string>
+    <string name="edit_email_failed">Email field must not be empty.</string>
+    <string name="edit_pass_failed">Password must be filled</string>
+    <string name="profile_updated">Profile Updated</string>
+    <string name="edit_wrong_pass">Wrong Password</string>
+    //Login
+    <string name="login_email_empty">Email must be filled"</string>
+    <string name="login_pass_empty">Password must be filled</string>
+    <string name="login_pass_less_6">Password must be at least 6 characters</string>
+    <string name="login_failed">Wrong email and password</string>
+    <string name="login_error">"Account has been either disabled, banned, or no longer exists"</string>
+    //Register
+    <string name="register_usr_failed">Username must be filled</string>
+    <string name="register_email_failed">Email must be filled</string>
+    <string name="register_email_format_failed">Wrong email format</string>
+    <string name="register_pass_failed">Password must be filled</string>
+    <string name="register_pass_alphanum">Password must be alphanumeric</string>
+    <string name="register_conf_pass_failed">Confirm password must be the same as password</string>
+    <string name="success_register">Successfully registered account</string>
+    //activity_admin_insert
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="img_url">Image_url</string>
+    <string name="upload_from_device">Upload from device</string>
+    <string name="desc">Description</string>
+    <string name="submit">Submit</string>
+    //catalog_journal
+    <string name="download_journal">Download Journal here!</string>
+    //fragment_manage_journal
+    <string name="create_journal">CreateJournal</string>
+    //activity_journal_layout
+    <string name="download">Download</string>
+    //activity_search_post
+    <string name="result_for">Result for: </string>
+    //profile menus
+    <string name="edit_profile">Edit Profile</string>
+    <string name="favourite_post">Favourite Post</string>
+
+    <string name="no_fav">No favourite post yet</string>
+    //chats
+    <string name="no_chats">No message yet</string>
+    <string name="type_message">Type a message</string>
+    //start conv
+    <string name="start_new_conversation">Select contact</string>
+    //home
+    <string name="search">Search Here</string>
+    <string name="tab_for_others">Tab for others</string>
+    //detail post
+    <string name="share_post">Share</string>
+    <string name="add_favorite_post">Add to Favorite Post</string>
+    <string name="comment">Comment</string>
+    <string name="post_comment">Post Comment</string>
+    <string name="sort_comment">Sort Comment</string>
+    //friend req
+    <string name="cancel_confirmation">Are you sure to decline friend request ?</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="sure">Decline</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_add_friend">Cancel Request</string>
+    <string name="already_friend">Already Friend</string>
+    //pending req
+    <string name="accept_request">Accept</string>
+    <string name="decline_request">Decline</string>
+    <string name="pending_request">Friend requests</string>
+    <string name="show_all_friend">Friends</string>
+    //all friend
+    <string name="chat_with_friend">Chat with friend</string>
+    //login strings
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="email_hint"><font size="15">Enter your email</font></string>
+    <string name="prompt_password">Password</string>
+    <string name="password_hint"><font size="15">Enter your password</font></string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_to_register"><font color="grey" size="12">Don\'t have an account ? Register Here</font></string>
+    <string name="google_sign_up">Sign up with Google</string>
+    <string name="or">--or--</string>
+    <string name="success_login">Successfully logged in</string>
+    <string name="success_login_google">Successfully connected to google account</string>
+    //register strings
+    <string name="title_activity_register">Register</string>
+    <string name="register_prompt_username">Username</string>
+    <string name="register_username_hint"><font size="15">Enter your username</font></string>
+    <string name="register_prompt_email">Email</string>
+    <string name="register_email_hint"><font size="15">Enter your email</font></string>
+    <string name="register_prompt_password">Password</string>
+    <string name="register_password_hint"><font size="15">Enter your password</font></string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="confirm_password_hint"><font size="15">Enter confirm password</font></string>
+    <string name="action_to_login"><font color="grey" size="12">Already have an account ? Login Here</font></string>
+    <string name="title_activity_other_post">OtherPost</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tap_for_others">Tap for Others</string>
+
+    //manage profile
+    <string name="change_profile">Change Profile</string>
+    <string name="change_pass">Change Password</string>
+    //edit profile
+    <string name="save">Save Changes</string>
+    <string name="confirm_changes">Confirm</string>
+    //change password
+    <string name="old_pass">Old Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartNewConversation">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_toolbar"
+        android:gravity="center_horizontal"
+
+        >
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back_btn"
+            android:background="@color/colorWhite"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            >
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/chat_profile_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:text="@string/start_new_conversation"
+            >
+
+        </TextView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <include layout="@layout/activity_all_friends" />
+</LinearLayout>

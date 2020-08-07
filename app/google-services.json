@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "665831426839",
+    "firebase_url": "https://jurnalotaku-968b5.firebaseio.com",
+    "project_id": "jurnalotaku-968b5",
+    "storage_bucket": "jurnalotaku-968b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665831426839:android:f2b827a571e311cad24552",
+        "android_client_info": {
+          "package_name": "com.weaboo.jurnalotaku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665831426839-9h78cbj4jeljal8s0bb59eq3g1681j6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaaugHhJ51LI5JfP0P3fEW-1zw7d3_SAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665831426839-durv5ta6rqde9pqopc15mglg57hs8g8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

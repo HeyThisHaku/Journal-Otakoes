@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowFavouritePost">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_toolbar"
+        android:gravity="center"
+
+        >
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back_btn"
+            android:background="@color/colorWhite"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            >
+
+        </ImageButton>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <View style="@style/Divider.Horizontal"/>
+    <TextView
+        android:id="@+id/fav_post_not_exists"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/no_fav"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/all_favourite"/>
+
+</LinearLayout>
